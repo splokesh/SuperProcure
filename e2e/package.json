@@ -1,0 +1,29 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "SuperProcure Assignment Seeding and E2E",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splokesh/SuperProcure.git"
+  },
+  "keywords": [
+    "E2E",
+    "Seeding"
+  ],
+  "author": "splokesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splokesh/SuperProcure/issues"
+  },
+  "homepage": "https://github.com/splokesh/SuperProcure#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.1.0",
+    "xlsx": "^0.17.0"
+  }
+}
